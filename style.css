@@ -1,6 +1,6 @@
 :root {
   --background-color: #25aab6;
-  --elements-backgound-color: #fff;
+  --elements-background-color: #fff;
 
   --danger-color: #e74c3c;
   --success-color: #2ecc71;
@@ -28,7 +28,7 @@ body {
 }
 
 .form-container {
-  background: var(--elements-backgound-color);
+  background: var(--elements-background-color);
   padding: 20px 30px;
   border-radius: 8px;
   box-shadow: 0 4px 8px var(--shadow-color);
@@ -67,7 +67,7 @@ button {
   width: 100%;
   padding: 10px;
   background: var(--background-color);
-  color: var(--elements-backgound-color);
+  color: var(--elements-background-color);
   border: none;
   border-radius: 4px;
   cursor: pointer;
