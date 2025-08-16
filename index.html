@@ -9,6 +9,7 @@
 <body>
 <div class="form-container">
     <h2>Login</h2>
+    <form id="login-form">
         <label for="username">Username</label>
         <input type="text" id="username" name="username"
                placeholder="Enter your username" required>
@@ -18,7 +19,10 @@
                placeholder="Enter your password" required>
 
         <button type="submit">Login</button>
+        <label id="login-message" class="form-message"></label>
+    </form>
     <p class="helper">Don’t have an account? <a href="register.html">Register</a></p>
 </div>
+<script src="Verification.js" async defer></script>
 </body>
 </html>
